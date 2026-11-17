@@ -1,0 +1,71 @@
+# ==========================================
+# Secrets, Keys & Environment Variables
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+.envrc
+.pypirc
+
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+venv/
+env/
+.venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# Model Weights & Large Data Files (Optional)
+# Uncomment the lines below if you want to ignore them
+# ==========================================
+# *.pt
+# *.pth
+# *.bin
+# *.safetensors
+# *.h5
+# *.csv
+# *.fasta
+# *.fa
+
+# ==========================================
+# OS Generated Files (Windows, WSL, macOS, Linux)
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+*.Identifier
+
+# ==========================================
+# Editors & IDEs
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.log
+tempCodeRunnerFile.py
+
+*_backup.*
